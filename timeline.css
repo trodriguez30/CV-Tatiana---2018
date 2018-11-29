@@ -75,14 +75,9 @@
   text-align: left;
 }
 
-ul.job-description li:before{
-  content: "✔";
-  padding-right: 0.5em;
-  color: #386e6a;
-}
-
 ul.job-description{
   list-style-type: none;
+  text-align: justify;
 }
 
 .direction-l .flag {
@@ -170,9 +165,7 @@ ul.job-description{
 
 .desc {
   margin: 1em 0.75em 0 0;
-  
-  font-size: 0.77777em;
-  font-style: italic;
+  font-size: 0.8em;
   line-height: 1.5em;
 }
 
