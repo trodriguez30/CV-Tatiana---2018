@@ -168,6 +168,10 @@ a button:hover{
   color: white;
 }
 
+.social, .social p{
+  text-align: center;
+}
+
 .social .fab {
   border: 1px solid white;
   border-radius: 50%;
@@ -186,7 +190,6 @@ a button:hover{
 .social a {
   color: black;
   text-decoration: none;
-  display: block;
 }
 
 .social a:hover {
@@ -200,6 +203,10 @@ footer {
  text-align: center;
 }
 
+footer p{
+  text-align: center;
+}
+
 @media only screen and (max-width: 768px) {
   .course {
     display: block;
@@ -211,6 +218,9 @@ footer {
   footer {
     text-align: center;
   }
+  .social a {
+  display: block;
+  } 
 }
 
 @media only screen and (max-width: 576px) {
