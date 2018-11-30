@@ -78,6 +78,7 @@
 ul.job-description{
   list-style-type: none;
   text-align: justify;
+  padding-left: 0;
 }
 
 .direction-l .flag {
@@ -276,7 +277,7 @@ ul.job-description{
 
 .direction-l .desc,
 .direction-r .desc {
-	margin: 1em 4em 0 4em;
+	margin: 1em 3em 0 3em;
 }
 
 }
