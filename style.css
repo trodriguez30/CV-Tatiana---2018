@@ -100,7 +100,7 @@ article{
 }
 
 .skills .column {
-  -ms-flex: 0 0 50%%;
+  -ms-flex: 0 0 50%;
   flex: 0 0 50%;
   max-width: 50%;
 }
@@ -131,12 +131,29 @@ article{
   font-weight: bold;
   font-size: 1.5em;
   margin-right: 0.5em;
-  font-family: 'Abril Fatface', serif;
+  font-family: 'Roboto', serif;
   line-height: 1;
 }
 
 .skills .column p{
   font-size: 1.2em;
+}
+
+.activities{
+  text-align: justify;
+}
+
+.activities a{
+  width: 20%;
+  display: inline-table;
+}
+
+.activities p{
+  display: inline-table;
+  font-size: 1.2em;
+	margin:0;
+	height: 110px;
+	vertical-align: middle;
 }
 
 .degree{
@@ -148,8 +165,6 @@ article{
   text-decoration: underline;
 }
 
-
-
 a button{
   font-size: 1em;
   background-color: #fff;
@@ -160,7 +175,7 @@ a button{
   text-decoration: none;
   display: inline-block;
   font-weight: bold;
-  border: 3px solid #386e6a;
+  border: 2px solid #386e6a;
 }
 
 a button:hover{
@@ -201,6 +216,7 @@ footer {
  background: #386e6a;
  color: white;
  text-align: center;
+ font-weight: bold;
 }
 
 footer p{
@@ -208,6 +224,13 @@ footer p{
 }
 
 @media only screen and (max-width: 768px) {
+
+  .activities{
+    margin: 0;
+    display: block;
+    text-align: center;
+  }
+
   .course {
     display: block;
   }
