@@ -274,7 +274,7 @@ Para nuestra experiencia necesitaremos un archivo de estilo externo.
 
 Lo descargaremos del siguiente link:
 
-[timeline.css] (https://drive.google.com/file/d/12L7wJTBT9ZNoLKASbrQFjjjR00dFkQ7o/view)
+(https://drive.google.com/file/d/12L7wJTBT9ZNoLKASbrQFjjjR00dFkQ7o/view)
 
 Lo conectamos con nuestro index.html:
 
@@ -331,6 +331,7 @@ Y agregamos:
 Solo debemos **tener en cuenta** la ubicación en la que se muestra el trabajo, donde solo es modificar:
 
 *direction-l* se ubica hacia la izquierda.
+
 *direction-r* se ubica hacia la derecha.
 
 **5. Cursos virtuales**
@@ -492,9 +493,10 @@ footer p{
 }
 ```
 
-###Detalles finales!!!
+### Detalles finales!!!
 
-*¡Ya casi tenemos nuestra hoja de vida completa!*
+¡Ya casi tenemos nuestra hoja de vida completa!
+
 Solo falta añadir los detalles finales:
 
 Agregamos en el style.css
@@ -528,9 +530,9 @@ Agregamos en el style.css
 }
 ```
 
-#¡¡¡Y listo!!!
-##Ya tenemos nuestra hoja de vida desarrollada
+# ¡¡¡Y listo!!!
+## Ya tenemos nuestra hoja de vida desarrollada
 
-###Autores
+### Autores
 
 - Tatiana Rodríguez
